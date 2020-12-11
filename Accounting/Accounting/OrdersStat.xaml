@@ -1,0 +1,27 @@
+﻿<Window x:Class="Accounting.OrdersStat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Accounting"
+        mc:Ignorable="d"
+        Title="OrdersStat" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid Name="dataGridStats" HorizontalAlignment="Left" Height="347" Margin="10,10,0,0" VerticalAlignment="Top" Width="772" Background="Gray" IsReadOnly="True">
+        </DataGrid>
+        <Label Content="Total price sum" HorizontalAlignment="Left" Margin="10,362,0,0" VerticalAlignment="Top"/>
+        <Label Content="All work price" HorizontalAlignment="Left" Margin="105,362,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sum of my work" HorizontalAlignment="Left" Margin="192,362,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sum of Girls work" HorizontalAlignment="Left" Margin="297,362,0,0" VerticalAlignment="Top"/>
+        <Label Content="The cost of cloth" HorizontalAlignment="Left" Margin="409,362,0,0" VerticalAlignment="Top"/>
+        <Label Content="The cost of implements" HorizontalAlignment="Left" Margin="512,362,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sum of equipment coating" HorizontalAlignment="Left" Margin="642,362,0,0" VerticalAlignment="Top"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="33,388,0,0" VerticalAlignment="Top" Name="Total_price_Lb"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="132,388,0,0" VerticalAlignment="Top" Name="Work_price_Lb"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="226,388,0,0" VerticalAlignment="Top" Name="My_work_Lb"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="328,388,0,0" VerticalAlignment="Top" Name="Girls_work_Lb"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="442,388,0,0" VerticalAlignment="Top" Name="The_cost_of_cloth_Lb"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="556,388,0,0" VerticalAlignment="Top" Name="The_cost_of_implements_Lb"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="695,388,0,0" VerticalAlignment="Top" Name="Sum_of_equipment_coating_Lb"/>
+    </Grid>
+</Window>
